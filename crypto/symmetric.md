@@ -292,7 +292,7 @@ operation](/assets/images/crypto/symmetric/CFB_decryption.png)
 
   $$
   \begin{cases}
-    Z*0 = IV \\ Z_i = E_K(Z*{i-1}) \\ C_i = M_i \oplus Z_i
+    Z_0 = IV \\ Z_i = E_K(Z*{i-1}) \\ C_i = M_i \oplus Z_i
   \end{cases}
   $$
 
